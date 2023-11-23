@@ -62,5 +62,6 @@ grupo_id int,
 constraint grupo_id foreign key (grupo_id) references grupos(grupo_id)
 );
 
+alter table membros_grupo add column data_adesao date not null;
 
 
